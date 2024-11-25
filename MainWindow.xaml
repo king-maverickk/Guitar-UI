@@ -14,43 +14,43 @@
         <!-- Container for the Top Div -->
         <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Each "Div" -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="100" Height="100" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="100" Height="100" Margin="5" Background="#6A8F33">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="Q" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <TextBlock Text="A_2" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    <TextBlock Text="Q" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
+                    <TextBlock Text="A_2" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
                 </StackPanel>
             </Border>
             <!-- Repeat above Border for 5 total -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="100" Height="100" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="100" Height="100" Margin="5" Background="#C53F32">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="1" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <TextBlock Text="A_3" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    <TextBlock Text="1" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
+                    <TextBlock Text="A_3" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
                 </StackPanel>
             </Border>
 
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                Width="100" Height="100" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                Width="100" Height="100" Margin="5" Background="#EBD24A">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="2" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <TextBlock Text="A_5" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    <TextBlock Text="2" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
+                    <TextBlock Text="A_5" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
                 </StackPanel>
             </Border>
 
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                Width="100" Height="100" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                Width="100" Height="100" Margin="5" Background="#54A0CB">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
+                    <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
                 </StackPanel>
             </Border>
 
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                Width="100" Height="100" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                Width="100" Height="100" Margin="5" Background="#D8763E">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="4" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <TextBlock Text="A_10" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    <TextBlock Text="4" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
+                    <TextBlock Text="A_10" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
                 </StackPanel>
             </Border>
         </StackPanel>
@@ -58,65 +58,65 @@
         <!-- Container for the Flexbox Row -->
         <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Bottom" HorizontalAlignment="Center">
             <!-- Each "Div" -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="#FFC53F32">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="1" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="1" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="White"/>
                 </StackPanel>
             </Border>
             <!-- Repeat above Border for 10 total -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                Width="80" Height="80" Margin="5" Background="#FFEBD24A">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="2" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="2" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="White"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                Width="80" Height="80" Margin="5" Background="#FF54A0CB">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="3" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="3" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="White"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Background="#FFD8763E">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="4" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="4" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="White"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="5" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="5" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="6" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="6" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="7" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="7" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="8" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="8" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="9" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="9" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-        Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+        Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="0" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="0" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
 
@@ -125,65 +125,65 @@
         <!-- Container for the Flexbox Row -->
         <StackPanel Orientation="Horizontal" Margin="50,0,0,10" VerticalAlignment="Bottom" HorizontalAlignment="Center">
             <!-- Each "Div" -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="#FF6A8F33">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="Q" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="Q" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="White"/>
                 </StackPanel>
             </Border>
             <!-- Repeat above Border for 10 total -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.291" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="W" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="W" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
             <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="E" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="E" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="R" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="R" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="T" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="T" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="Y" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="Y" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="U" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="U" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="I" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="I" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="O" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="O" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Background="Black" Opacity="0.3">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="P" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="P" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
 
@@ -192,59 +192,59 @@
         <!-- Container for the Flexbox Row -->
         <StackPanel Orientation="Horizontal" Margin="10,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center">
             <!-- Each "Div" -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-            Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+            Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="A" FontSize="24" FontWeight="Medium"/>
+                    <TextBlock Text="A" FontSize="24" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
             <!-- Repeat above Border for 10 total -->
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="S" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="S" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="D" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="D" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="F" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="F" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="G" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="G" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="H" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="H" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="J" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="J" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="K" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="K" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
-                    Width="80" Height="80" Margin="5">
+            <Border BorderThickness="2" CornerRadius="10" 
+                    Width="80" Height="80" Margin="5" Opacity="0.3" Background="Black">
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="L" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                    <TextBlock Text="L" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium" Foreground="#FFB5B5B5"/>
                 </StackPanel>
             </Border>
 
