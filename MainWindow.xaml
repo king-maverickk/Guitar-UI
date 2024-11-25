@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920"
         WindowState="Maximized">
-    <Grid Margin="2,0,-2,0">
+    <StackPanel Orientation="Vertical" Margin="10" VerticalAlignment="Center">
 
         <!-- <Grid x:Name="rowNumbers" Height="80" Background="BurlyWood" Margin="0,116,0,238"/> -->
 
@@ -121,6 +121,134 @@
             </Border>
 
         </StackPanel>
-        
-    </Grid>
+
+        <!-- Container for the Flexbox Row -->
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,10" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <!-- Each "Div" -->
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Q" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <!-- Repeat above Border for 10 total -->
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="W" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="E" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="R" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="T" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Y" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="U" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="I" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="O" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="P" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+        <!-- Container for the Flexbox Row -->
+        <StackPanel Orientation="Horizontal" Margin="10,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <!-- Each "Div" -->
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+            Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="A" FontSize="24" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <!-- Repeat above Border for 10 total -->
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="S" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="D" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="F" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="G" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="H" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="J" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="K" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="2" CornerRadius="10" BorderBrush="Black" 
+                    Width="80" Height="80" Margin="5">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="L" FontSize="24" HorizontalAlignment="Center" FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+    </StackPanel>
 </Window>
