@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Guitar_UI"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920"
-        WindowState="Maximized">
+        WindowState="Maximized" KeyDown="Print_Key_Down">
     <StackPanel Orientation="Vertical" Margin="10" VerticalAlignment="Center">
 
         <!-- <Grid x:Name="rowNumbers" Height="80" Background="BurlyWood" Margin="0,116,0,238"/> -->
