@@ -3,6 +3,9 @@ using System.Windows.Input;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
+using System.Diagnostics;
+
+using System.Threading;
 
 namespace Guitar_UI
 {
@@ -11,6 +14,37 @@ namespace Guitar_UI
         public MainWindow()
         {
             InitializeComponent();
+            StartPythonScript();
+        }
+
+        // Start the Python script in a separate thread
+        private void StartPythonScript()
+        {
+            Thread pythonThread = new Thread(RunPythonScript);
+            pythonThread.IsBackground = true;  // Ensures thread doesn't block app termination
+            pythonThread.Start();
+        }
+
+        // Run the Python Pygame script
+        private void RunPythonScript()
+        {
+            try
+            {
+                ProcessStartInfo startInfo = new ProcessStartInfo("python", @"C:/Users/mogun/source/repos/Guitar-UI/seven_nation_army.py")
+                {
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    CreateNoWindow = true
+                };
+                using (Process process = Process.Start(startInfo))
+                {
+                    process.WaitForExit(); // Optionally wait for it to exit if needed
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error running Python script: {ex.Message}");
+            }
         }
 
         private void Print_Key_Down(object sender, KeyEventArgs e)
@@ -34,6 +68,7 @@ namespace Guitar_UI
                     break;
                 default:
                     Console.WriteLine($"You pressed: {e.Key}");
+                    MessageBox.Show($"You pressed: {e.Key}");
                     break;
             }
         }
