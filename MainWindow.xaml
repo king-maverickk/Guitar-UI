@@ -12,61 +12,79 @@
         <!-- <Grid x:Name="rowNumbers" Height="80" Background="BurlyWood" Margin="0,116,0,238"/> -->
 
         <!-- Container for the Top Div -->
-        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100">
             <!-- Each "Div" -->
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#54A0CB">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                    BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#FF54A0CB">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
             </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#54A0CB">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#D8763E">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="4" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_10" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#54A0CB">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#EBD24A">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="2" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_5" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Background="#C53F32">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="1" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_3" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            <Border BorderThickness="2" CornerRadius="10" 
-                    Width="100" Height="100" Margin="5" Background="#6A8F33">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="Q" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2"/>
-                    <TextBlock Text="A_2" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2"/>
-                </StackPanel>
-            </Border>
-            
-            <!-- Repeat above Border for 5 total -->
 
-            
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#FF54A0CB">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#D8763E">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="4" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_10" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                    BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#FF54A0CB">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_7" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                    BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#EBD24A">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="2" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_5" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                    BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#C53F32">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="1" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_3" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <Border BorderThickness="2" CornerRadius="10" Padding="5"
+                    BorderBrush="Black" Margin="5,0,0,0">
+                <Border CornerRadius="10" Background="#6A8F33">
+                    <StackPanel HorizontalAlignment="Center" Width="100" >
+                        <TextBlock Text="Q" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                        <TextBlock Text="A_2" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Foreground="#F2F2F2" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Border>
+
+            <!-- Repeat above Border for 5 total -->
         </StackPanel>
 
         <!-- Container for the Flexbox Row -->
