@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Guitar_UI"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920"
-        WindowState="Maximized" PreviewKeyDown="Print_Key_Down">
+        WindowState="Maximized" KeyUp="Window_KeyUp" KeyDown="Window_KeyDown">
     <StackPanel Orientation="Vertical" Margin="10" VerticalAlignment="Center">
 
         <!-- <Grid x:Name="rowNumbers" Height="80" Background="BurlyWood" Margin="0,116,0,238"/> -->
@@ -15,7 +15,7 @@
         <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100">
             <!-- Each "Div" -->
             <Border BorderThickness="2" CornerRadius="10" Padding="5"
-                    BorderBrush="Black" Margin="5,0,0,0">
+                     Margin="5,0,0,0" Name="border_D3">
                 <Border CornerRadius="10" Background="#FF54A0CB">
                     <StackPanel HorizontalAlignment="Center" Width="100" >
                         <TextBlock Text="3" FontSize="32" HorizontalAlignment="Center" FontWeight="Bold" Foreground="#F2F2F2" VerticalAlignment="Center"/>

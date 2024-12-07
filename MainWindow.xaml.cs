@@ -47,29 +47,31 @@ namespace Guitar_UI
             }
         }
 
-        private void Print_Key_Down(object sender, KeyEventArgs e)
+        private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            switch (e.Key)
+            string k = e.Key.ToString();
+            string name = "border_" + k;
+            System.Diagnostics.Debug.WriteLine(name);
+
+            // Use FindName to locate the Border element
+            var border = FindName(name) as Border;
+            if (border != null)
             {
-                case Key.Q:
-                    MessageBox.Show("Q was pressed");
-                    break;
-                case Key.D1:
-                    MessageBox.Show("1 was pressed");
-                    break;
-                case Key.D2:
-                    MessageBox.Show("2 was pressed");
-                    break;
-                case Key.D3:
-                    MessageBox.Show("3 was pressed");
-                    break;
-                case Key.D4:
-                    MessageBox.Show("4 was pressed");
-                    break;
-                default:
-                    Console.WriteLine($"You pressed: {e.Key}");
-                    MessageBox.Show($"You pressed: {e.Key}");
-                    break;
+                border.BorderBrush = Brushes.Red; // Revert to default color
+            }
+        }
+
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            string k = e.Key.ToString();
+            string name = "border_" + k;
+            System.Diagnostics.Debug.WriteLine(name);
+
+                    // Use FindName to locate the Border element
+            var border = FindName(name) as Border;
+            if (border != null)
+            {
+                border.BorderBrush = Brushes.White; // Revert to default color
             }
         }
     }
